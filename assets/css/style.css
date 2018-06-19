@@ -1,53 +1,41 @@
 /* New fonts added - LCD or digital fonts */
-@font-face{
-    font-family: "digital";
-    src : url("../../assets/fonts/digital-7.ttf")
+
+@font-face {
+	font-family: "digital";
+	src: url("../../assets/fonts/digital-7.ttf")
 }
-
-
-*{
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
-
-body{
-	
-    background-color: gray;  
-     
-    height: 100%; 
-       	 
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   text-align: center;
-  
+body {
+	background-color: gray;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
 }
-
-
-#game-action{
-  margin-left: 5%;
-  font-style: bold;
-
-
+#game-action {
+	margin-left: 5%;
+	font-style: bold;
 }
-#reset{
-    margin: 5%;
-    background-color: #008CBA; 
-    border-radius: 12px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 25%;
+/* #reset {
+	margin: 5%;
+	background-color: #008CBA;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: 25%;
+} */
+#choices {
+	margin-left: 10px;
 }
-#choices{
-    margin-left: 10px;
+.answer-button {
+	padding: 10px;
+	margin: 20px;
+	font-size: 30px;
+	text-align: center;
 }
-
-.answer-button{
-    padding : 10px;
-    margin: 20px;
-    font-size: 30px;
-    text-align: center;
-}
-
-.timerStyle{
-    color: yellow;
-    font-family: digital;
+.timerStyle {
+	color: yellow;
+	font-family: digital;
 }
