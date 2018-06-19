@@ -119,10 +119,11 @@ $(document).on('click','.answer-button',function(event){
     results: function(){
       clearInterval(timer);
       $('#game-action').html("<h3>Game Over</h3>");
+      $('#game-action').append(line);
       $('#game-action').append("<h3>Correct: "+game.correct+"</h3>");
       $('#game-action').append("<h3>Incorrect: "+game.incorrect+"</h3>");
       $('#game-action').append("<h3>Unanswered: "+game.unanswered+"</h3>");
-      $('#game-action').append("<button id='reset'>Play Again</button>");
+      $('#game-action').append("<button id='reset' class ='btn btn-primary'>Play Again</button>");
       $('#game-action').append('<br/>');
     },
     // use to clear the interval ,pass the button value for 'event'
